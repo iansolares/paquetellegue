@@ -1,0 +1,49 @@
+*{
+   font-family: "MerriWeather Sans", sans-serif;
+   margin: 0px;
+}
+
+html{
+   background: #EEEEEE;
+   color: #BF0B0B;
+   font-size: 30px;
+}
+
+.container{
+   display: flex;
+   gap: 5px;
+   margin-left: 50px;
+   margin-right: 50px;
+   /*background-color: blue; */
+}
+
+.uppermenu{
+   display: flex;
+   justify-content: space-between;
+   font-size: 1rem;
+ }
+ 
+ .menuItem{
+   margin-right: 20px;
+   padding: 10px;
+   list-style: none;
+   color: #737373;
+ }
+
+ .landing{
+   display: block;
+   width: 40%;
+   font-size: 1.5rem;
+ }
+
+ #enganche{
+   background-color: #FFCC00;
+   border-radius: 40px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+ }
+
+ #mapaMexico{
+   margin: 40px 50px;
+ }
